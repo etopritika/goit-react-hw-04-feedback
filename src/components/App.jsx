@@ -28,7 +28,7 @@ export default function App() {
     if (total === 0) {
       return 0;
     }
-    return Number(((state.good / total) * 100).toFixed(0));
+    return Number(((good / total) * 100).toFixed(0));
   };
 
   return (
