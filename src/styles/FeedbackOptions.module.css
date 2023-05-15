@@ -1,0 +1,3 @@
+.option__button::first-letter {
+  text-transform: uppercase;
+}
